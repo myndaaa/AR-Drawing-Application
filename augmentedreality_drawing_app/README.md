@@ -1,14 +1,14 @@
 # AR Drawing App
 
-**AR Drawing App** is an innovative tool that uses augmented reality (AR) technology to overlay drawings on top of the camera view. It is designed to help users draw with precision by providing a real-time guide, enhancing creativity and skill development. This app is built with **Flutter** and uses **SQLite** for local data storage.
+**AR Drawing App** is a tool that uses augmented reality (AR) technology to overlay drawings on top of the camera view. It is designed to help users draw with precision by providing a real-time guide. This app is built with **Flutter** and uses **SQLite** for local data storage.
 
 ## Features
 
 - **AR Drawing:** Use AR to project drawings onto a real-world surface via the camera.
 - **Custom Drawings:** Choose from preloaded images or upload your own to use as a drawing guide.
-- **User-Friendly Interface:** Intuitive controls for positioning, scaling, and rotating the guide image.
-- **Offline Capability:** SQLite integration ensures that all data is stored locally, allowing you to use the app without an internet connection.
-- **Real-Time Interaction:** Manipulate the AR image to align perfectly with your drawing surface.
+- **User-Friendly Interface:** Controls for positioning, scaling, and rotating the guide image.
+- **Offline Capability:** SQLite integration ensures that all data is stored locally.
+- **Real-Time Interaction:** Manipulate the AR image to align perfectly.
 
 ## Technologies Used
 

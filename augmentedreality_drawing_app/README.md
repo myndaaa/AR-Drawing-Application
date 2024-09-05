@@ -49,4 +49,4 @@
 
 ### Contributors
 * Designers: GH Bandhan, Shahriar Sadat
-* Developer: Myndaaa :heart:
+* Developer: Myndaaa :heart: 🦄 👽

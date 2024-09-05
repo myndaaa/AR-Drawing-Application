@@ -54,8 +54,8 @@
 
 ## For me to see and refer to
 <div style="display: flex; justify-content: space-between;">
-  <img src="pic1.png" alt="Pic 1" style="width: 45%; margin-right: 10px;"/>
-  <img src="pic2.png" alt="Pic 2" style="width: 45%;"/>
+  <img src="pic1.png" alt="Pic 1" style="width: 25%; margin-right: 50px;"/>
+  <img src="pic2.png" alt="Pic 2" style="width: 25%;"/>
 </div>
 
 

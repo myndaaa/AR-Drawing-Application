@@ -53,7 +53,7 @@
 
 
 ## For me to see and refer to
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between;  gap: 50px;">
   <img src="pic1.png" alt="Pic 1" style="width: 25%; margin-right: 50px;"/>
   <img src="pic2.png" alt="Pic 2" style="width: 25%;"/>
 </div>

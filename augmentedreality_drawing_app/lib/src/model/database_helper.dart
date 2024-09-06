@@ -90,4 +90,26 @@ class DatabaseHelper {
       return SvgFile.fromMap(maps[i]);
     });
   }
+  // Delete a category by ID
+  Future<int> deleteCategory(int id) async {
+    Database db = await instance.database;
+    // Delete the category by its ID
+    return await db.delete(
+      tableCategories,
+      where: 'id = ?',
+      whereArgs: [id],
+    );
+  }
+
+  // Update a category
+  Future<int> updateCategory(Category category) async {
+    Database db = await instance.database;
+    return await db.update(
+      tableCategories,
+      category.toMap(),
+      where: 'id = ?',
+      whereArgs: [category.id],
+    );
+  }
+
 }

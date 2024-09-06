@@ -1,5 +1,7 @@
 import 'database_helper.dart';
-import 'models/template_model.dart';
+import 'package:augmentedreality_drawing_app/src/model/svgfile_datamodel.dart';
+import 'package:augmentedreality_drawing_app/src/model/category_database_datamodel.dart';
+
 
 class DataPopulator {
   final DatabaseHelper dbHelper = DatabaseHelper.instance;

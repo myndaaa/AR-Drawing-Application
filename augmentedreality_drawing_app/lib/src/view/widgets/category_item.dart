@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../../controller/category_controller.dart';
 import '../../model/category_database_datamodel.dart';
 
 class CategoryItemWidget extends StatelessWidget {

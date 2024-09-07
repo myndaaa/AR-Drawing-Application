@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class GradientTheme {
-  static const Color startColor = Color(0xFF64B261); // #64B261
+  static const Color startColor = Color(0xFF64B261); // #64B261 first 4 letters mean opacity
   static const Color endColor = Color(0xFF2B4C29);   // #2B4C29
 
   static LinearGradient get linearGradient => const LinearGradient(
-    begin: Alignment.topLeft,
-    end: Alignment.bottomRight,
+    begin: Alignment.centerLeft,
+    end: Alignment.centerRight,
     colors: [startColor, endColor],
   );
 

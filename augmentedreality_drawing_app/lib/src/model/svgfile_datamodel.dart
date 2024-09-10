@@ -5,7 +5,7 @@ class SvgFile {
 
   SvgFile({this.id, required this.categoryId, required this.filePath});
 
-  // Convert an SvgFile into a Map. The keys must correspond to the column names in the database.
+  // Convert SvgFile into map
   Map<String, dynamic> toMap() {
     return {
       'id': id,
@@ -14,7 +14,7 @@ class SvgFile {
     };
   }
 
-  // Extract an SvgFile object from a Map.
+  // Extrac
   factory SvgFile.fromMap(Map<String, dynamic> map) {
     return SvgFile(
       id: map['id'],
